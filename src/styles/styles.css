@@ -25,6 +25,11 @@ section {
 
 }
 
+html{
+
+    scroll-behavior: smooth;
+}
+
 .btn-default{
    border: none;
    display: flex;

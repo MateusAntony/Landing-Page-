@@ -35,4 +35,28 @@ $(document).ready(function() {
         $(navItems[activeSectionIndex]).addClass('active').siblings().removeClass('active');
 
     });
+
+    ScrollReveal().reveal('#cta', {
+        origin: 'left',
+        duration: 2000,
+        distance: "20%"
+    });
+
+    ScrollReveal().reveal('.dish', {
+        origin: 'left',
+        duration: 2000,
+        distance: "20%"
+    });
+
+    ScrollReveal().reveal('#testimonials_chef', {
+        origin: 'left',
+        duration: 1000,
+        distance: "20%"
+    });
+
+    ScrollReveal().reveal('.feedback', {
+        origin: 'right',
+        duration: 2000,
+        distance: "20%"
+    });
 });
